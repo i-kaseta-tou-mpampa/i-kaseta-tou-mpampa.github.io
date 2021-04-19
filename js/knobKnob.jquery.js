@@ -1,12 +1,4 @@
-/**
- * @name		jQuery KnobKnob plugin
- * @author		Martin Angelov
- * @version 	1.0
- * @url			http://tutorialzine.com/2011/11/pretty-switches-css3-jquery/
- * @license		MIT License
- */
-
-(function($){
+window.addEventListener('load', (event) => {
 	
 	$.fn.knobKnob = function(props){
 	
@@ -117,4 +109,4 @@
 		});
 	};
 	
-})(jQuery);
+});
